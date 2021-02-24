@@ -1,0 +1,24 @@
+// Power of a number usng recursion
+#include<stdio.h>
+int power (int b, int p);
+int main()
+{
+    int base, pwr, result;
+    printf("Enter a base: ");
+    scanf("%d",&base);
+    printf("\nEnter power: ");
+    scanf("%d",&pwr);
+    result = power(base, pwr);
+    printf("\n%d^%d = %d",base,pwr,result);
+}
+int power (int b, int p)
+{
+    if (p!=0)
+    {
+        return (b * power(b, p-1));
+    }
+    else
+    {
+        return 1;
+    }
+}

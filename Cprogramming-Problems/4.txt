@@ -1,0 +1,23 @@
+// Sum of n numbers using memory allocation
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+    int n, *ptr, i, sum = 0;
+    printf("Enter total numbers to be added: ");
+    scanf("%d",&n);
+    ptr = (int*) malloc(n*sizeof(int));
+    if (ptr == NULL)
+    {
+        printf("Error: Memory not allocated !");
+        exit (0);
+    }
+    printf("Enter numbers: ");
+    for(i=0;i<n;i++)
+    {
+        scanf("%d", &ptr[i]);
+        sum = sum + ptr[i];
+    }
+    printf("Sum = %d",sum);
+    free(ptr);
+}

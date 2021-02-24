@@ -1,0 +1,71 @@
+//Basic bank portal 
+#include<stdio.h>
+#include<stdlib.h>
+void deposit (float *bal);
+void withdraw (float *bal);
+void display (float *bal);
+int main()
+{
+ float balance = 0;
+ int choice;
+ while (1)
+ {
+ printf("\nPlease select an option: (1) Deposit, (2) Withdraw, (3) Check balance, (0) Exit : ");
+ scanf("%d",&choice);
+ if (choice == 0)
+ {
+         printf("\nThank you for using the service !\n");
+         exit (1);
+ }
+ switch (choice)
+ {
+         case 1: 
+         {
+                 deposit(&balance);
+                 break;
+         }
+         case 2:
+         {
+                 withdraw(&balance);
+                 break;
+         }
+         case 3: 
+         {
+                 display(&balance);
+                 break;
+         }
+         default: 
+         {
+                 printf("\n Error ! Invalid input.\n");
+                 break;
+         }
+ }
+ }
+}
+void deposit (float *bal)
+{
+        float temp;
+        printf("Enter amount to be deposited: ");
+        scanf("%f",&temp);
+        *bal = *bal + temp;
+        printf("Amount deposited successfully.\n");
+} 
+
+void withdraw (float *bal)
+{
+        float temp;
+        printf("Enter amount to be withdrawn: ");
+        scanf("%f",&temp);
+        if (temp>*bal)
+        {
+         printf("Insufficient balance.\n");
+         exit (0);
+        }
+        *bal = *bal - temp; 
+        printf("Amount withdrawn succesfully.\n");    
+} 
+
+void display(float *bal)
+{
+        printf("You account balance is: Rs. %.2f\n",*bal);
+}

@@ -1,0 +1,25 @@
+#include <stdio.h>
+struct complex 
+{
+    int real,img;
+};
+int main ()
+{
+    struct complex num1, num2, sum;
+    printf("Enter values of both complex numbers \n");
+    printf("Real of number 1 : ");
+    scanf("%d",&num1.real);
+    printf("Imaginary of number 1 : ");
+    scanf("%d",&num1.img);
+
+    printf("Real of number 2 : ");
+    scanf("%d",&num2.real);
+    printf("Imaginary of number 2 : ");
+    scanf("%d",&num2.img);
+
+    sum.real = num1.real + num2.real;
+    sum.img = num1.img + num2.img;
+
+    printf("The sum of %d + %di and %d + %di is %d + %di",num1.real,num1.img,num2.real,num2.img,sum.real,sum.img);
+    return 0;
+}

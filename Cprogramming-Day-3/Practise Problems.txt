@@ -1,0 +1,100 @@
+1. Find largest of 4 numbers entered by the user.
+OUTPUT:
+ Enter 4 numbers 
+10 20 9 7
+Largest of the 4 numbers is 20
+
+2. Calculate power of a number using recursion.
+OUTPUT:
+Enter a base: 3 
+Enter power: 4
+3^4 = 81
+
+3. Create and add the contents of two arrays entered by the user of same size.
+OUTPUT:
+Enter number of elements in 2 arrays: 5
+Enter elemets of Array 1: 1 2 3 4 5
+Enter elemets of Array 2: 6 7 8 9 10
+Resultant array with sum is: 7 9 11 13 15
+
+4. Using memory allocation calculate sum of n numbers entered by the user.
+OUTPUT:
+Enter total numbers to be added: 5
+Enter numbers: 10 41 56 11 69
+Sum = 187
+
+5. Swap two numbers using call by reference method.
+OUTPUT:
+Enter 2 numbers: 10 20
+Numbers before swapping:
+ n1 = 10  n2 = 20
+Numbers after swapping:
+ n1 = 20  n2 = 10
+
+6. Using structure add two complex numbers.
+OUTPUT:
+Real of number 1 : 10
+Imaginary of number 1 : 5
+Real of number 2 : -7
+Imaginary of number 2 : 11
+The sum of 10 + 5i and -7 + 11i is 3 + 16i
+
+7. Store information of 5 students using structure and display it using a function. (Use name, roll number and email as data points).
+OUTPUT:
+Enter details of student 1:-
+Student name: Jai
+Student Roll number: 41
+Student email: jai.cs@somaiya.edu
+Enter details of student 2:-
+Student name: Sarvesh
+Student Roll number: 55
+Student email: sarvesh.soni@somaiya.edu
+Enter details of student 3:-
+Student name: Paras
+Student Roll number: 37
+Student email: paras.kori@somaiya.edu
+
+Student data:
+Student 1 Name: Jai
+Student 1 Roll number: 41
+Student 1 email: jai.cs@somaiya.edu
+Student 2 Name: Sarvesh
+Student 2 Roll number: 55
+Student 2 email: sarvesh.soni@somaiya.edu
+Student 3 Name: Paras
+Student 3 Roll number: 37
+Student 3 email: paras.kori@somaiya.edu
+
+8. Store the contents of the previous result on a file on your pc. 
+OUTPUT:
+(similar to previous question but stored in an external text file)
+
+9. Add two 3*3 matrices using multi dimensional arrays.
+OUTPUT:
+Enter elements of first matrix:      1 2 3 4 5 6 7 8 9
+Enter elements of second matrix: 4 5 7 1 2 3 5 8 4 
+Sum of both matrices: 
+5   7   10
+5   7   9
+12   6   13
+
+10. Make a simple bank portal with 3 functions: deposit, withdraw, balance check. (You can use switch case to make the interface easy)
+OUTPUT:
+Please select an option: Deposit (1), Withdraw (2), Check balance (3), Exit (0) : 1
+Enter amount to deposit: 5000
+Amount deposited.
+
+Please select an option: Deposit (1), Withdraw (2), Check balance (3), Exit (0) : 2
+Enter amount to withdraw: 2000
+Amount withdrawn.
+
+Please select an option: Deposit (1), Withdraw (2), Check balance (3), Exit (0) : 3
+Your account balance is Rs. 3000.
+
+Please select an option: Deposit (1), Withdraw (2), Check balance (3), Exit (0) : 0
+
+(Program ended)
+
+
+
+
