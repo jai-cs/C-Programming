@@ -5,4 +5,4 @@
 <p>This repository contails all the code that was taught during C programming sessions in hands on online workshop by Jai Shah.</p>
 <p>The repo is divided based on the days the sessions were taken.</p>
 
-![Screenshot 1 of the session](https://drive.google.com/file/d/1-fwscTIyBucssEz_TFTxAB7Q_H1lICBs/view?usp=sharing)
+![Screenshot 1 of session](https://github.com/jai-cs/Cprogramming/blob/master/Screenshot1.jpg?raw=true)
